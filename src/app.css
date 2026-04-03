@@ -77,11 +77,10 @@ body {
 }
 
 .japimg {
-    display: block;
+    display: flex;
     margin: 0 auto;
     max-width: 35%; /* Scales down if too wide */
     height: auto; /* Maintains aspect ratio */
-    display: block; /* Removes bottom gap */
 }
 
 

@@ -4,7 +4,7 @@ export default function Contact() {
         <div className="div-section">
             <h1 className="div-section">Contact Info</h1>
             <h1>Thanks for visiting!</h1>
-            <h3>Feel free to reach me or explore my GitHub page for more.</h3>
+            <h3>I'd love to hear from you. Employers can check out my work on GitHub and reach me via my email:</h3>
            
         </div>
 
