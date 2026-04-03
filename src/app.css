@@ -72,6 +72,10 @@ body {
     margin-bottom: 2rem; /* space after each block */
 }
 
+.div-spacing {
+    gap: 20px;
+}
+
 .japimg {
     display: block;
     margin: 0 auto;

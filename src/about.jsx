@@ -39,7 +39,7 @@ export default function About(){
                     Learning that people could legally test systems, break things, and find weaknesses for a living immediately caught my attention. 
                     I've always enjoyed exploring systems, finding loopholes, and understanding how things break so they can be improved.
                 </p>
-                <p>Based in IN, Indianpolis. Brining big tech to the MidWest, day by day...</p>
+                <p>Based in IN, Indianpolis. Bringing big tech to the MidWest, day by day...</p>
             </section>
 
             <section>

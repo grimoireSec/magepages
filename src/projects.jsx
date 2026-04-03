@@ -5,25 +5,26 @@ export default function Project(){
     
     return(
         <>
-        <div className="div section cert-card" onClick={() => navigate("projects/pomodoro")}>
-            <h1>Pomodoro App ( New React Version )</h1>
+        <div className="cert-card">
+            <h1>Pomodoro App ( New React Version ) IN DEVELOPMENT </h1>
         </div>
 
-        <div className="div-section cert-card" onClick={() => navigate("/projects/pomodoro")}>
+        <div className="cert-card">
             <h2>Pomodoro App ( Old Flask/Jinja Verion )</h2>
             <p>
                 A productivity tool built with Flask to manage focused work sessions.
             </p>
             <div className="div-section">
-                 <ul className="tech-list">
-                <li>Flask</li>
-                <li>Jinja</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-            {/* ADD <A> LINK FOR THE READ ME OF YOUR PROJECT and use it as a div */}
-
+                <ul style={{ marginTop: '10px' }} className="tech-list">
+                    <li>Flask</li>
+                    <li>Jinja</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+                <div className="div-section">
+                    <a style={{ marginTop: '10px' }} className="git-link" href="https://github.com/grimoireSec/CS50X-FINAL-PROJECT">Project Link</a>
+                </div>
             </div>
         </div>
         </>
