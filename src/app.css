@@ -1,0 +1,218 @@
+/* Resets the default margins so that we can customize them our way */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* This makes "measuring" easier */
+}
+
+body {
+    min-height: 100vh;
+    background-color: wheat; /* Covers the entire page background, including scroll area */
+}
+
+/* flexbox magic for the navbar */
+.navbar {
+    display: flex; /* "Activates" flexbox */
+    width: 100%;
+    justify-content: space-between; /* Pushes Logo to the left, links to the right */
+    align-items: center; /* Centers items horizontially */
+    padding: 1rem 2rem; /* 1rem = 16px (usually) */
+    background-color: RGB(69,54,48); 
+    color: white;
+}
+
+/* Horizontal Links */
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none; /* Removes dots to the bullets */
+    gap: 20px; /* The "Measurments" between the items */
+}
+
+.nav-links a {
+    display: inline-block;
+    background-color: RGB(111, 78, 55);
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    border: 2px solid #333;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: #333;
+    transform: scale(1.05);
+}
+
+.container {
+    background-color: wheat;
+    width: 100%;
+    flex: 1;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.content {
+    color: RGB(69,54,48);
+    font-family:Georgia, 'Times New Roman', Times, serif'
+}
+
+.logo {
+    color: wheat;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.div-section {
+    margin-bottom: 2rem; /* space after each block */
+}
+
+.japimg {
+    display: block;
+    margin: 0 auto;
+    max-width: 35%; /* Scales down if too wide */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes bottom gap */
+}
+
+
+
+/* THIS DIRECTLY IS MADE FOR AND AFFECTS THE ABOUT ME PAGE */
+.about-container {
+    display: flex;
+    grid-template-columns: 300px 1fr;
+    gap: 60px;
+
+    max-width: auto;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.about-sidebar {
+    position: sticky;
+    top: 100px;
+}
+
+.profile-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+    border-radius: 10%;
+    margin-bottom: 15px;
+    
+}
+
+.tagline {
+    color: RGB(86,53,23);
+    margin-top: 10px;
+}
+
+.about-content section{
+    margin-bottom: 50px;
+}
+
+.tech-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    list-style: none;
+    padding: 0;
+}
+
+.tech-list li{
+    background: #333;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: RGB(69,54,48);
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.git-link {
+    display: inline-block;
+    background-color: RGB(111, 78, 55);
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    border: 2px solid #333;
+    margin-bottom: 2rem;
+}
+
+.git-link:hover {
+    background-color: white;
+    color: #333;
+    transform: scale(1.05);
+}
+
+/* THIS IS DIRECTLY MADE FOR AND WILL AFFECT THE CERTIFICATION PAGE */
+
+.cert-card {
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 8px;
+
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(4px);
+
+    transition: all 0.2s ease;
+}
+
+.cert-card:hover {
+    border-color: rgba(194,178,128,0.6);
+    transform: translateY(-2px);
+}
+
+.cert-badge {
+    display: inline-block;
+    text-decoration: none;
+    color: #A51C30;
+}
+
+.cert-link:hover {
+    text-decoration: underline;
+}
+
+/* THIS AFFECTS ALL CERTIFICATION IMAGES AND IS FOR CERTIFICATIONS ONLY */
+
+.cert-image-container{
+    margin-top: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.cert-image {
+    width: 50%;
+    display: block;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+.cert-image:hover {
+    transform: scale(1.05);
+}
+
+.cert-image-container:hover {
+    border-color: rgba(194,178,128,0.6);
+}
+
+/* THIS IS MADE FOR AND DIRECTLY AFFECTS THE PROJECTS PAGE */
