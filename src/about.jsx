@@ -136,7 +136,7 @@ export default function About(){
                     I am a Catholic and believe Jesus Christ of Nazereth is Lord. 
                     My faith influences the way I pursue growth, discipline, and responsibility.
                 </p>
-                <p>My Hobbies include:</p>
+                <h2>My Hobbies include:</h2>
                 <ul className="tech-list">
                     <li>Bible Study</li>
                     <li>Hiking & Camping</li>

@@ -6,6 +6,8 @@ import About from './about';
 import Project from './projects';
 import Certifications from './certification';
 import Contact from './contact';
+import Books from './books';
+
 // PUT THE IMPORTED FUNCTIONS HERE
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <li><Link className="nav-link" to="/about">About</Link></li>
           <li><Link className="nav-link" to="/projects">Project(s)</Link></li>
           <li><Link className="nav-link" to="/certification">Certification(s)</Link></li>
+          <li><Link className="nav-link" to='/books'></Link>
           <li><Link className="nav-link" to="/contact">Contact</Link></li>
         </ul>
       </nav>
@@ -29,6 +32,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Project />} />
         <Route path="/certification" element={<Certifications />} />
+        <Route path="/books" element={<Books />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
