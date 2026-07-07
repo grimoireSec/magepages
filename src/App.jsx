@@ -20,7 +20,7 @@ function App() {
           <li><Link className="nav-link" to="/about">About</Link></li>
           <li><Link className="nav-link" to="/projects">Project(s)</Link></li>
           <li><Link className="nav-link" to="/certification">Certification(s)</Link></li>
-          <li><Link className="nav-link" to='/books'>Books</Link></li>
+          <li><Link className="nav-link" to='/books'>Book(s)</Link></li>
           <li><Link className="nav-link" to="/contact">Contact</Link></li>
         </ul>
       </nav>

@@ -10,7 +10,7 @@ export default function Project(){
         </div>
 
         <div className="cert-card">
-            <h2>Pomodoro App ( Old Flask/Jinja Verion )</h2>
+            <h2>Pomodoro Web-App ( Old Flask/Jinja Verion )</h2>
             <p>
                 A productivity tool built with Flask to manage focused work sessions.
             </p>
