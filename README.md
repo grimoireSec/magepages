@@ -47,4 +47,4 @@ This project is maintained as a portfolio example and learning record. Content m
 
 ## Author
 
-Created with ❤️ by **@DMVIRTUE** as my CodeDex HTML Final Project.
+Created with ❤️ by **@DMVIRTUE** as my CodeDex CSS Final Project.
