@@ -45,3 +45,6 @@ This is not an official website or a current professional portfolio. It is prese
 
 This project is maintained as a portfolio example and learning record. Content may be outdated and should not be treated as an official source of information.
 
+## Author
+
+Created with ❤️ by **@DMVIRTUE** as my CodeDex HTML Final Project.
