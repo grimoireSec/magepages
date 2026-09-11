@@ -1,16 +1,47 @@
-# React + Vite
+# Mage Pages
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mage Pages is a personal portfolio-style website and a snapshot of an earlier stage of my work. I originally made it when I was 18 but now it's serving as a final project submission for my CSS certification from Codedex.
 
-Currently, two official plugins are available:
+This is not an official website or a current professional portfolio. It is preserved as an example of a past project and as a record of my early web development practice.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What's Included
 
-## React Compiler
+- A responsive multi-page layout
+- Navigation between Home, About, Projects, Certifications, and Contact pages
+- Custom styling with CSS
+- Client-side routing with React Router
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built With
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- React Router
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Running Locally
+
+1. Install the dependencies:
+
+	```bash
+	npm install
+	```
+
+2. Start the development server:
+
+	```bash
+	npm run dev
+	```
+
+3. Open the local URL shown in the terminal.
+
+## Available Scripts
+
+- `npm run dev` starts the development server.
+- `npm run build` creates a production build.
+- `npm run lint` checks the project with ESLint.
+- `npm run preview` previews the production build locally.
+
+## Project Status
+
+This project is maintained as a portfolio example and learning record. Content may be outdated and should not be treated as an official source of information.
+
